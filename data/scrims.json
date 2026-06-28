@@ -1,0 +1,35 @@
+[
+  {
+    "id": "scrim1",
+    "name": "EU Pro Scrimmage - CS2",
+    "game": "CS2",
+    "scheduledTime": "2024-07-05T19:00:00Z",
+    "region": "EU",
+    "maxTeams": 4,
+    "registeredTeams": 3,
+    "status": "upcoming",
+    "createdAt": "2024-06-20T10:00:00Z"
+  },
+  {
+    "id": "scrim2",
+    "name": "NA Valorant Practice",
+    "game": "VALORANT",
+    "scheduledTime": "2024-07-05T22:00:00Z",
+    "region": "NA",
+    "maxTeams": 4,
+    "registeredTeams": 2,
+    "status": "upcoming",
+    "createdAt": "2024-06-21T11:15:00Z"
+  },
+  {
+    "id": "scrim3",
+    "name": "Asia Open Scrim",
+    "game": "DOTA2",
+    "scheduledTime": "2024-07-05T14:00:00Z",
+    "region": "ASIA",
+    "maxTeams": 4,
+    "registeredTeams": 4,
+    "status": "live",
+    "createdAt": "2024-06-22T08:30:00Z"
+  }
+]

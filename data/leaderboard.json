@@ -1,0 +1,12 @@
+[
+  {"rank": 1, "playerId": "p2", "playerName": "PhantomStrike", "team": "Neon Vanguard", "rating": 2850, "matches": 147, "wins": 112, "winRate": 76.2},
+  {"rank": 2, "playerId": "p5", "playerName": "ViperStrike", "team": "Apex Predators", "rating": 2810, "matches": 156, "wins": 118, "winRate": 75.6},
+  {"rank": 3, "playerId": "p1", "playerName": "FrostbiteX", "team": "Shadow Knights", "rating": 2780, "matches": 142, "wins": 109, "winRate": 76.8},
+  {"rank": 4, "playerId": "p3", "playerName": "SilentHunter", "team": "Shadow Knights", "rating": 2650, "matches": 151, "wins": 98, "winRate": 64.9},
+  {"rank": 5, "playerId": "p4", "playerName": "EchoVortex", "team": "Neon Vanguard", "rating": 2520, "matches": 138, "wins": 87, "winRate": 63.0},
+  {"rank": 6, "playerId": "p26", "playerName": "ShadowAce", "team": "Cyber Legends", "rating": 2480, "matches": 165, "wins": 102, "winRate": 61.8},
+  {"rank": 7, "playerId": "p27", "playerName": "NovaBlast", "team": "Thunder Storm", "rating": 2420, "matches": 159, "wins": 95, "winRate": 59.7},
+  {"rank": 8, "playerId": "p28", "playerName": "IceFlare", "team": "Neon Vanguard", "rating": 2380, "matches": 144, "wins": 88, "winRate": 61.1},
+  {"rank": 9, "playerId": "p29", "playerName": "VoidWalker", "team": "Shadow Knights", "rating": 2340, "matches": 152, "wins": 91, "winRate": 59.9},
+  {"rank": 10, "playerId": "p30", "playerName": "InfernoX", "team": "Apex Predators", "rating": 2310, "matches": 148, "wins": 87, "winRate": 58.8}
+]

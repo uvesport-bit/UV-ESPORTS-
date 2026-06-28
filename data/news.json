@@ -1,0 +1,38 @@
+[
+  {
+    "id": "news1",
+    "title": "Shadow Knights Claim Championship Title",
+    "content": "In an epic final match, Shadow Knights defeated Neon Vanguard 3-1 to claim their first international championship. FrostbiteX was named MVP with an outstanding performance.",
+    "author": "Sports Editor",
+    "category": "Tournament Results",
+    "views": 4523,
+    "createdAt": "2024-06-28T15:30:00Z"
+  },
+  {
+    "id": "news2",
+    "title": "Exclusive Interview: Rise of ViperStrike",
+    "content": "We sit down with the rising star ViperStrike to discuss his journey from amateur to professional esports and what's next for his career at Apex Predators.",
+    "author": "Interview Team",
+    "category": "Interviews",
+    "views": 3102,
+    "createdAt": "2024-06-27T10:15:00Z"
+  },
+  {
+    "id": "news3",
+    "title": "Global Championship 2024: Registration Now Open",
+    "content": "Teams can now register for the prestigious Global Championship 2024. Early bird pricing is available until June 30th. Don't miss your chance to compete!",
+    "author": "Tournament Team",
+    "category": "Announcements",
+    "views": 5841,
+    "createdAt": "2024-06-26T12:00:00Z"
+  },
+  {
+    "id": "news4",
+    "title": "Esports Training Facility Opens in LA",
+    "content": "UV ESPORTS partners with a new state-of-the-art training facility in Los Angeles, providing resources for aspiring professionals.",
+    "author": "News Team",
+    "category": "News",
+    "views": 2156,
+    "createdAt": "2024-06-25T09:45:00Z"
+  }
+]

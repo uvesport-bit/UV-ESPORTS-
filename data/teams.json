@@ -1,0 +1,57 @@
+[
+  {
+    "id": "t1",
+    "name": "Shadow Knights",
+    "captain": "SilentHunter",
+    "coach": "StrategicMind",
+    "roster": ["p1", "p3", "p6", "p7", "p8"],
+    "region": "EU",
+    "ranking": 1,
+    "achievements": ["European Championship 2024", "International League Finalist"],
+    "createdAt": "2024-01-10T08:00:00Z"
+  },
+  {
+    "id": "t2",
+    "name": "Neon Vanguard",
+    "captain": "PhantomStrike",
+    "coach": "TacticalGenius",
+    "roster": ["p2", "p4", "p9", "p10", "p11"],
+    "region": "EU",
+    "ranking": 2,
+    "achievements": ["Nordic Tournament Winner", "Regional Qualifiers"],
+    "createdAt": "2024-02-15T10:30:00Z"
+  },
+  {
+    "id": "t3",
+    "name": "Apex Predators",
+    "captain": "ViperStrike",
+    "coach": "VeteranCommander",
+    "roster": ["p5", "p12", "p13", "p14", "p15"],
+    "region": "NA",
+    "ranking": 3,
+    "achievements": ["North American League 2024", "Rising Stars"],
+    "createdAt": "2024-03-20T12:45:00Z"
+  },
+  {
+    "id": "t4",
+    "name": "Thunder Storm",
+    "captain": "StormLeader",
+    "coach": "EliteTrainer",
+    "roster": ["p16", "p17", "p18", "p19", "p20"],
+    "region": "ASIA",
+    "ranking": 5,
+    "achievements": ["Asian Champions", "Pro League Qualifier"],
+    "createdAt": "2024-04-10T14:20:00Z"
+  },
+  {
+    "id": "t5",
+    "name": "Cyber Legends",
+    "captain": "CyberMaster",
+    "coach": "ProfficientMentor",
+    "roster": ["p21", "p22", "p23", "p24", "p25"],
+    "region": "SA",
+    "ranking": 7,
+    "achievements": ["South American Trophy"],
+    "createdAt": "2024-05-05T09:10:00Z"
+  }
+]

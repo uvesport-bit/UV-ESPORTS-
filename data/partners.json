@@ -1,0 +1,37 @@
+[
+  {
+    "id": "partner1",
+    "name": "Gaming Gear Pro",
+    "category": "Hardware",
+    "logo": "https://via.placeholder.com/200x100?text=Gaming+Gear+Pro",
+    "website": "https://gaminggear.pro"
+  },
+  {
+    "id": "partner2",
+    "name": "NetSpeed Networks",
+    "category": "ISP",
+    "logo": "https://via.placeholder.com/200x100?text=NetSpeed+Networks",
+    "website": "https://netspeed.net"
+  },
+  {
+    "id": "partner3",
+    "name": "StreamForce",
+    "category": "Streaming",
+    "logo": "https://via.placeholder.com/200x100?text=StreamForce",
+    "website": "https://streamforce.com"
+  },
+  {
+    "id": "partner4",
+    "name": "Pro Chair Dynamics",
+    "category": "Furniture",
+    "logo": "https://via.placeholder.com/200x100?text=Pro+Chair",
+    "website": "https://prochair.com"
+  },
+  {
+    "id": "partner5",
+    "name": "EnergyBoost Drinks",
+    "category": "Beverage",
+    "logo": "https://via.placeholder.com/200x100?text=EnergyBoost",
+    "website": "https://energyboost.drink"
+  }
+]

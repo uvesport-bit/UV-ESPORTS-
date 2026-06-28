@@ -1,0 +1,54 @@
+[
+  {
+    "id": "tour1",
+    "name": "Global Championship 2024",
+    "game": "CS2",
+    "prizePool": 500000,
+    "teams": 16,
+    "startDate": "2024-07-15T18:00:00Z",
+    "endDate": "2024-07-22T20:00:00Z",
+    "status": "upcoming",
+    "region": "EU",
+    "description": "The biggest esports tournament of the year featuring the best teams from around the world.",
+    "createdAt": "2024-06-01T10:00:00Z"
+  },
+  {
+    "id": "tour2",
+    "name": "Valorant Pro Invitational",
+    "game": "VALORANT",
+    "prizePool": 250000,
+    "teams": 12,
+    "startDate": "2024-07-20T16:00:00Z",
+    "endDate": "2024-07-25T20:00:00Z",
+    "status": "upcoming",
+    "region": "NA",
+    "description": "Top Valorant teams compete for glory and $250k prize pool.",
+    "createdAt": "2024-06-05T11:30:00Z"
+  },
+  {
+    "id": "tour3",
+    "name": "DOTA 2 World Series",
+    "game": "DOTA2",
+    "prizePool": 1000000,
+    "teams": 18,
+    "startDate": "2024-08-01T17:00:00Z",
+    "endDate": "2024-08-10T21:00:00Z",
+    "status": "upcoming",
+    "region": "ASIA",
+    "description": "The international DOTA 2 championship bringing together the elite teams.",
+    "createdAt": "2024-06-10T09:00:00Z"
+  },
+  {
+    "id": "tour4",
+    "name": "Regional Qualifier Series",
+    "game": "CS2",
+    "prizePool": 100000,
+    "teams": 8,
+    "startDate": "2024-07-08T15:00:00Z",
+    "endDate": "2024-07-10T19:00:00Z",
+    "status": "live",
+    "region": "EU",
+    "description": "Regional qualifying tournament for upcoming international events.",
+    "createdAt": "2024-06-15T12:00:00Z"
+  }
+]
