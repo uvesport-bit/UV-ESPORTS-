@@ -4,7 +4,7 @@ import TournamentsGrid from '@/components/tournament/TournamentsGrid'
 
 export const metadata = {
   title: 'Tournaments - UV ESPORTS',
-  description: 'Browse and join esports tournaments on UV ESPORTS',
+  description: 'Browse all tournaments',
 }
 
 export default function Tournaments() {
@@ -16,7 +16,7 @@ export default function Tournaments() {
           <div className="page-transition">
             <h1 className="text-5xl font-bold text-gradient mb-4">Tournaments</h1>
             <p className="text-xl text-slate-300 mb-12">
-              Compete in our upcoming tournaments and climb the ranks
+              Discover and join tournaments worldwide
             </p>
             <TournamentsGrid />
           </div>

@@ -1,10 +1,12 @@
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
+import { Card } from '@/components/ui/Card'
 import ContactForm from '@/components/contact/ContactForm'
+import { Mail, Phone, MapPin } from 'lucide-react'
 
 export const metadata = {
   title: 'Contact Us - UV ESPORTS',
-  description: 'Get in touch with the UV ESPORTS team',
+  description: 'Get in touch with UV ESPORTS',
 }
 
 export default function Contact() {
@@ -16,26 +18,52 @@ export default function Contact() {
           <div className="page-transition">
             <h1 className="text-5xl font-bold text-gradient mb-4">Contact Us</h1>
             <p className="text-xl text-slate-300 mb-12">
-              Have questions or feedback? We'd love to hear from you. Get in touch with our team.
+              Have questions? We'd love to hear from you.
             </p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              <div className="glass-dark rounded-xl p-8">
-                <h2 className="text-2xl font-bold text-slate-100 mb-6">Get in Touch</h2>
-                <ContactForm />
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* Contact Form */}
+              <div className="lg:col-span-2">
+                <Card>
+                  <h2 className="text-2xl font-bold text-slate-100 mb-6">Send us a Message</h2>
+                  <ContactForm />
+                </Card>
               </div>
+
+              {/* Contact Info */}
               <div className="space-y-6">
-                <div className="glass-dark rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-slate-100 mb-2">Email</h3>
-                  <p className="text-slate-400">support@uv-esports.com</p>
-                </div>
-                <div className="glass-dark rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-slate-100 mb-2">Discord</h3>
-                  <p className="text-slate-400">Join our Discord community</p>
-                </div>
-                <div className="glass-dark rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-slate-100 mb-2">Office Hours</h3>
-                  <p className="text-slate-400">Monday - Friday: 9 AM - 6 PM UTC</p>
-                </div>
+                <Card>
+                  <div className="flex items-start gap-4">
+                    <div className="text-2xl text-primary mt-1">✉️</div>
+                    <div>
+                      <h3 className="font-semibold text-slate-100 mb-1">Email</h3>
+                      <p className="text-slate-400">contact@uv-esports.com</p>
+                      <p className="text-slate-400">support@uv-esports.com</p>
+                    </div>
+                  </div>
+                </Card>
+
+                <Card>
+                  <div className="flex items-start gap-4">
+                    <div className="text-2xl text-primary mt-1">💬</div>
+                    <div>
+                      <h3 className="font-semibold text-slate-100 mb-1">Discord</h3>
+                      <p className="text-slate-400">Join our community server</p>
+                      <a href="#" className="text-primary hover:text-primary-light transition">discord.gg/uv-esports</a>
+                    </div>
+                  </div>
+                </Card>
+
+                <Card>
+                  <div className="flex items-start gap-4">
+                    <div className="text-2xl text-primary mt-1">🕐</div>
+                    <div>
+                      <h3 className="font-semibold text-slate-100 mb-1">Support Hours</h3>
+                      <p className="text-slate-400">Mon - Fri: 9:00 - 18:00</p>
+                      <p className="text-slate-400">Sat - Sun: 10:00 - 16:00</p>
+                    </div>
+                  </div>
+                </Card>
               </div>
             </div>
           </div>
