@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-all duration-300 ease-out;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  @apply bg-dark-bg text-slate-100 overflow-x-hidden;
+  background-attachment: fixed;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark-card;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full hover:bg-primary-light;
+}
+
+/* Custom Cursor */
+@layer utilities {
+  .cursor-glow {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="8" fill="%237c3aed" opacity="0.6"/><circle cx="16" cy="16" r="4" fill="%237c3aed"/></svg>') 16 16, auto;
+  }
+}
+
+/* Glassmorphism */
+.glass {
+  @apply bg-white/10 backdrop-blur-md border border-white/20;
+}
+
+.glass-dark {
+  @apply bg-dark-card/50 backdrop-blur-md border border-dark-border/50;
+}
+
+/* Glow Cards */
+.glow-card {
+  @apply shadow-glow-purple hover:shadow-glow-lg relative;
+  transition: all 0.3s ease;
+}
+
+.glow-card:hover {
+  @apply scale-105;
+}
+
+/* Gradient Buttons */
+.btn-gradient {
+  @apply bg-gradient-purple hover:bg-gradient-neon text-white font-semibold px-6 py-2 rounded-lg;
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.6);
+  @apply scale-105;
+}
+
+/* Animated Background */
+.animated-bg {
+  background: linear-gradient(-45deg, #7c3aed, #0ea5e9, #ec4899, #7c3aed);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Loading Skeleton */
+.skeleton {
+  @apply bg-dark-border animate-pulse rounded;
+}
+
+/* Smooth Transitions */
+.page-transition {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Grid */
+.grid-responsive {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+/* Text Gradient */
+.text-gradient {
+  @apply bg-gradient-purple bg-clip-text text-transparent;
+}
+
+/* Hover Lift Effect */
+.hover-lift {
+  @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-glow-purple;
+}
